@@ -1,0 +1,47 @@
+.board{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:  min(95vw, 95vh);
+    height: min(95vw, 95vh);
+    object-fit: contain;
+    border-radius: 2%;
+    z-index: 1;
+}
+
+body {
+    position: relative;
+}
+
+/* dessin des pièces */
+.piece {
+    position: absolute;
+    width: min(calc(95vw/8), calc(95vh/8));
+    height: min(calc(95vw/8), calc(95vh/8));
+    z-index: 2;
+}
+/*.black-king {
+    background-image: url("assets/board area/pieces/classical style (merida)/bK.svg") no-repeat; /* or content: ...)*/
+/*}.black-queen {
+    background-image: url("assets/board area/pieces/classical style (merida)/bQ.svg") no-repeat;
+}.black-rook {
+    background-image: url("assets/board area/pieces/classical style (merida)/bR.svg") no-repeat;
+}.black-bishop {
+    background-image: url("assets/board area/pieces/classical style (merida)/bB.svg") no-repeat;
+}.black-knight {
+    background-image: url("assets/board area/pieces/classical style (merida)/bN.svg") no-repeat;
+}.black-pawn {
+    background-image: url("assets/board area/pieces/classical style (merida)/bP.svg") no-repeat;
+}.white-king {
+    background-image: url("assets/board area/pieces/classical style (merida)/wK.svg") no-repeat;
+}.white-queen {
+    background-image: url("assets/board area/pieces/classical style (merida)/wQ.svg") no-repeat;
+}.white-rook {
+    background-image: url("assets/board area/pieces/classical style (merida)/wR.svg") no-repeat;
+}.white-bishop {
+    background-image: url("assets/board area/pieces/classical style (merida)/wB.svg") no-repeat;
+}.white-knight {
+    background-image: url("assets/board area/pieces/classical style (merida)/wN.svg") no-repeat;
+}.white-pawn{
+    background-image: url("assets/board area/pieces/classical style (merida)/wP.svg") no-repeat;
+}*/
